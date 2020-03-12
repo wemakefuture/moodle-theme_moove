@@ -1,0 +1,281 @@
+<?php
+// Diese Datei ist Teil von Moodle - http://moodle.org/
+//
+// Moodle ist freie Software: Sie können sie weiterverbreiten und/oder modifizieren
+// es steht unter den Bedingungen der GNU General Public License, wie veröffentlicht von
+// die Free Software Foundation, entweder Version 3 der Lizenz, oder
+// (nach Ihrer Wahl) jede spätere Version.
+//
+// Moodle wird in der Hoffnung verteilt, dass es nützlich sein wird,
+// aber OHNE IRGENDEINE GARANTIE; ohne auch nur die implizite Garantie von
+// HANDELSFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.  Siehe die
+// GNU General Public License für weitere Einzelheiten.
+//
+// Sie sollten eine Kopie der GNU General Public License erhalten haben.
+// zusammen mit Moodle.  Falls nicht, siehe <http://www.gnu.org/licenses/>.
+
+/**
+ * Sprachdatei.
+ *
+ * @Paket theme_moove
+ * @Urheberrecht 2017 Willian Mano - http://conecti.me
+ * @Lizenz http://www.gnu.org/copyleft/gpl.html GNU GPL v3 oder später
+ */
+
+defined('MOODLE_INTERNAL') ||| die();
+
+$string['pluginname'] = 'Moove';
+$string['configtitle'] = 'Moove';
+$string['choosereadme'] = 'Moove ist ein modernes, sehr anpassbares Thema. Dieses Theme soll direkt oder als übergeordnetes Thema bei der Erstellung neuer Themen mit Bootstrap 4 verwendet werden.';
+
+$string['currentinparentheses'] = '(aktuell)';
+$string['region-side-pre'] = '(aktuell)'; $string['region-side-pre'] = 'rechts';
+$string['login'] = 'Haben Sie Bereits ein Konto?';
+$string['prev_section'] = 'Vorheriger Abschnitt';
+$string['next_section'] = 'Nächster Abschnitt';
+$string['search_site'] = 'Auf der Seite suchen';
+$string['search_forums'] = 'Suche in Kursforen';
+$string['platform_access'] = 'Zugriff auf die Plattform';
+$string['readmore'] = 'Weiterlesen';
+$string['stayintouch'] = 'In Kontakt bleiben';
+$string['madewitmoodle'] = 'Stolz gemacht mit';
+$string['madeby'] = 'Gemacht mit';
+$string['by'] = 'Gemacht mit'; $string['madeby'] = 'Gemacht mit';
+$string['discipl_progress'] = 'Fortschritt des Thema\s';
+$string['access'] = 'Zugriff';
+$string['cachedef_admininfos'] = 'Informationen zum Dashboard des Site-Administrators';
+$string['diskusage'] = 'Datennutzung(moodledata)';
+$string['notcalculatedyet'] = 'Noch nicht berechnet';
+$string['calculatediskusagetask'] = 'Taks zur Berechnung der Festplattennutzung';
+$string['totalusers'] = 'Aktive / Gesperrte Benutzer';
+$string['totalcourses'] = 'Kurse insgesamt';
+$string['onlineusers'] = 'Online-Benutzer(letzte 5 Minuten)';
+$string['showhideblocks'] = 'Blöcke anzeigen/verbergen';
+$string['privacy:metadata'] = 'Das Moove-Theme speichert keine persönlichen Daten über einen Benutzer.';
+
+// Registerkarte "Allgemeine Einstellungen".
+$string['generalsettings'] = 'Allgemein';
+$string['logo'] = 'Logo';
+$string['logodesc'] = 'Das Logo wird in der Kopfzeile angezeigt';
+$string['favicon'] = 'Benutzerdefiniertes Favicon';
+$string['favicondesc'] = 'Eigenes Favicon hochladen.  Es sollte eine .ico-Datei sein.';
+$string['preset'] = 'Themenvoreinstellung';
+$string['preset_desc'] = 'Wählen Sie eine Voreinstellung, um das Aussehen des Themes weitgehend zu ändern'; $string['preset_desc'] = 'Wählen Sie eine Voreinstellung, um das Aussehen des Themas weitgehend zu ändern';
+$string['presetfiles'] = 'Zusätzliche Theme-Voreinstellungsdaten';
+$string['presetfiles_desc'] = 'Voreingestellte Dateien können verwendet werden, um das Aussehen des Themes stark zu verändern. Siehe <a href="https://docs.moodle.org/dev/Boost_Presets">Voreinstellungen stark ändern</a> für Informationen über die Erstellung und gemeinsame Nutzung Ihrer eigenen Voreinstellungsdateien.';
+$string['loginbgimg'] = 'Hintergrund der Loginseite';
+$string['loginbgimg_desc'] = 'Laden Sie Ihr benutzerdefiniertes Hintergrundbild für die Anmeldeseite hoch';
+$string['brandcolor'] = 'Markenfarbe';
+$string['brandcolor_desc'] = 'Die Akzentfarbe'; 
+$string['navbarheadercolor'] = 'Navbar-Kopffarbe';
+$string['navbarheadercolor_desc'] = 'Die Farbe der oberen Navbar-Kopfleiste';
+$string['navbarbg'] = 'Navbar-Farbe';
+$string['navbarbg_desc'] = 'Die linke Navbar-Farbe';
+$string['navbarbghover'] = 'Navbar-Farbe für den Schwebezustand';
+$string['navbarbghover_desc'] = 'Die linke Navbar-Hover-Farbe'; $string['navbarbghover_desc'] = 'Die linke Navbar-Hover-Farbe';
+$string['coursepresentation'] = 'Kurspräsentation';
+$string['coursepresentationdesc'] = '<b>Standard-Präsentation:</b> Die Standard-Kurs-Präsentation.<br><b>Cover-Bild:</b> Wird ein Cover-Bild oben auf der Kursseite angezeigt (das erste Bild in den Kurszusammenfassungsdateien wird verwendet);
+$string['coursedefault'] = 'Standard-Präsentation';
+$string['coursecover'] = 'Titelbild';
+$string['courselistview'] = 'Kurslistenansicht aktivieren';
+$string['courselistviewdesc'] = 'Umschalten der Kursansicht von Box- auf Listenansicht'; 
+$string['courselistviewdesc'] = 'Kurslistenansicht aktivieren';
+
+// Registerkarte 'Erweiterte Einstellungen'.
+$string['advancedsettings'] = 'Erweiterte Einstellungen';
+$string['rawscsspre'] = 'Rohes-SCSS';
+$string['rawscsspre_desc'] = 'In diesem Feld können Sie initialisierenden SCSS-Code angeben, er wird vor allen anderen injiziert. Die meiste Zeit werden Sie diese Einstellung verwenden, um Variablen zu definieren.';
+$string['rawscss'] = 'Raw SCSS';
+$string['rawscss_desc'] = 'Benutzen Sie dieses Feld, um SCSS- oder CSS-Code bereitzustellen, der am Ende des Stylesheets injiziert wird';
+$string['googleanalytics'] = 'Google Analytics-Code';
+$string['googleanalyticsdesc'] = 'Bitte geben Sie Ihren Google Analytics-Code ein, um Analysen auf Ihrer Website zu ermöglichen. Das Code-Format sollte wie [UA-XXXXX-Y]' sein;
+
+// Registerkarte "Einstellungen für die Titelseite".
+$string['frontpagesettings'] = 'Titelseite';
+$string['disablefrontpageloginbox'] = 'Frontpage-Anmeldebox deaktivieren';
+$string['disablefrontpageloginboxdesc'] = 'Wenn Sie es markieren, wird das Frontpage-Anmeldefeld ausgeblendet und ein Link zur Anmeldeseite wird in der Kopfleiste angezeigt';
+$string['headerimg'] = 'Kopfzeilenbild';
+$string['headerimgdesc'] = 'Laden Sie Ihr eigenes Header-Bild hier hoch, wenn Sie es zum header.mage hinzufügen möchten. Am besten funktioniert es, wenn (die Bildgröße sollte 1500px x 700px sein)';
+$string['bannerheading'] = 'Banner-Überschrift';
+$string['bannerheadingdesc'] = 'Banner-Überschriftstext eingeben';
+$string['bannercontent'] = 'Banner-Inhalt';
+$string['bannercontentdesc'] = 'Banner-Inhaltstext eingeben';
+$string['displaymarketingbox'] = 'Titelseiten-Marketingbox anzeigen';
+$string['displaymarketingboxdesc'] = 'Titelseite Marketingbox anzeigen oder verbergen';
+$string['marketing1icon'] = 'Marketing1 Icon';
+$string['marketing1icondesc'] = 'Marketing1-Symbol hochladen';
+$string['marketing1heading'] = 'Marketing1 Überschrift';
+$string['marketing1headingdesc'] = 'Marketing1-Überschrifttext eingeben';
+$string['marketing1subheading'] = 'Marketing1 Unterrubrik';
+$string['marketing1subheadingdesc'] = 'Marketing1 Unterrubrik-Text eingeben';
+$string['marketing1content'] = 'Marketing1-Inhalt';
+$string['marketing1contentdesc'] = 'Marketing1-Inhalt Text eingeben';
+$string['marketing1url'] = 'Marketing1-URL';
+$string['marketing1urldesc'] = 'Marketing1-URL eingeben'; 
+$string['marketing2icon'] = 'Marketing2 Icon';
+$string['marketing2icondesc'] = 'Marketing2 Icon hochladen';
+$string['marketing2heading'] = 'Marketing2 Überschrift';
+$string['marketing2headingdesc'] = 'Marketing2-Überschrift eingeben';
+$string['marketing2subheading']  = 'Marketing2 Unterrubrik';
+$string['marketing2subheadingdesc'] = 'Marketing2 Unterrubrik-Text eingeben';
+$string['marketing2content']  = 'Marketing2-Inhalt';
+$string['marketing2contentdesc'] = 'Marketing2-Inhalt Text eingeben';
+$string['marketing2url'] = 'Marketing2-URL';
+$string['marketing2urldesc'] = 'Marketing2-URL eingeben'; 
+$string['marketing3icon'] = 'Marketing3 Icon';
+$string['marketing3icondesc'] = 'Marketing3-Symbol hochladen';
+$string['marketing3heading'] = 'Marketing3-Überschrift';
+$string['marketing3headingdesc'] = 'Marketing3-Überschrift eingeben';
+$string['marketing3subheading'] = 'Marketing3 Unterrubrik';
+$string['marketing3subheadingdesc'] = 'Marketing3 Unterrubrik-Text eingeben';
+$string['marketing3content'] = 'Marketing3-Inhalt';
+$string['marketing3contentdesc'] = 'Marketing3-Inhaltstext eingeben';
+$string['marketing3url']] = 'Marketing3-URL';
+$string['marketing3urldesc'] = 'Marketing3-URL eingeben';
+$string['marketing4icon'] = 'Marketing4 Icon';
+$string['marketing4icondesc'] = 'Marketing4 Icon hochladen';
+$string['marketing4heading'] = 'Marketing4-Überschrift';
+$string['marketing4headingdesc'] = 'Marketing4-Überschrifttext eingeben';
+$string['marketing4subheading'] = 'Marketing4 Unterrubrik';
+$string['marketing4subheadingdesc'] = 'Marketing4 Unterrubriktext eingeben';
+$string['marketing4content'] = 'Marketing4-Inhalt';
+$string['marketing4contentdesc'] = 'Marketing4-Inhaltstext eingeben';
+$string['marketing4url'] = 'Marketing4-URL'] = 'Marketing4-URL';
+$string['marketing4urldesc'] = 'Marketing4-URL eingeben'; $string['marketing4urldesc'] = 'Marketing4-URL eingeben';
+$string['disableteteacherspic'] = 'Bild des Lehrers deaktivieren';
+$string['disableteteacherspicdesc'] = 'Diese Einstellung verbirgt die Bilder der Lehrer\ von den Kurskarten;
+
+$string['sliderenabled'] = 'Schieberegler aktivieren';
+$string['sliderenableddesc'] = 'Schieberegler oben auf der Homepage aktivieren';
+$string['sliderfrontpage'] = 'Diashow auf der Startseite anzeigen';
+$string['sliderfrontpagedesc'] = 'Wenn aktiviert, wird die Diashow auf der Titelseite angezeigt und ersetzt das Bild der Kopfzeile';
+$string['slidercount'] = 'Anzahl der Schieberegler';
+$string['slidercountdesc'] = 'Wählen Sie aus, wie viele Folien Sie hinzufügen möchten <stark> klicken Sie dann auf Speichern</stark>, um die Eingabefelder zu laden';
+$string['sliderimage'] = 'Schiebereglerbild';
+$string['sliderimagedesc'] = 'Ein Bild für Ihre Folie hinzufügen'; $string['sliderimagedesc'] = 'Ein Bild für Ihre Folie hinzufügen. Die empfohlene Größe ist 1500px x 540px oder höher.';
+$string['slidertitle'] = 'Slider-Titel'; 
+$string['slidertitledesc'] = 'Fügen Sie den Titel des Slider\s hinzu';
+$string['slidercaption'] = 'Untertitel des Sliders';
+$string['slidercaptiondesc'] = 'Fügen Sie eine Bildunterschrift für Ihren Slider hinzu';
+
+$string['numberssfrontpage'] = 'Site-Nummern auf der Titelseite anzeigen';
+$string['numberssfrontpagedesc'] = 'Falls aktiviert, zeigt die Anzahl der aktiven Benutzer, Kurse und Aktivitäten auf der Startseite an.';
+$string['frontpagenumbersome'] = 'Einige';
+$string['frontpagenumbersumbers'] = 'Zahlen';
+$string['frontpagenumberusers'] = 'Benutzer';
+$string['frontpagenumbercourses'] = 'Kurse';
+$string['frontpagenumberactivities'] = 'Aktivitäten';
+
+$string['sponsorstitledefault'] = 'Sponsoren';
+$string['sponsorssubtitledefault'] = 'Unternehmen und Institutionen, die an uns glauben';
+$string['sponsorsfrontpage'] = 'Sponsorenzeile aktivieren';
+$string['sponsorsfrontpagedesc'] = 'Wenn aktiviert, eine Zeile mit den Sponsorenlogos mit ihren URLs anzeigen';
+$string['sponsorstitle'] = 'Titel des Sponsors';
+$string['sponsorstitledesc'] = 'Die Kopfzeile der Sponsorenzeile.
+$string['sponsorssubtitle'] = 'Sponsoren-Untertitel';
+$string['sponsorssubtitledesc'] = 'Der Untertitel der Sponsorenzeile';
+$string['sponsorscount'] = 'Sponsoren zählen';
+$string['sponsorscountdesc'] = 'Wählen Sie aus, wie viele Sponsorenlogos Sie hinzufügen möchten <stark>dann klicken Sie auf Speichern</stark>, um die Eingabefelder zu laden';
+$string['sponsorsimage'] = 'Sponsorenlogo';
+$string['sponsorenimagedesc'] = 'Sponsorenlogo hinzufügen'; $string['sponsorenimagedesc'] = 'Sponsorenlogo hinzufügen';
+$string['sponsorenurl'] = 'Sponsor-URL';
+$string['sponsorsurldesc'] = 'Geben Sie die URL der Website des Sponsors ein';
+
+$string['clientstitledefault'] = 'Unsere Kunden';
+$string['clientssubtitledefault'] = 'Unsere Kunden, die an uns glauben';
+$string['clientsfrontpage'] = 'Kundenzeile aktivieren';
+$string['clientsfrontpagedesc'] = 'Wenn aktiviert, wird eine Zeile mit den Kundenlogos mit ihren URLs angezeigt;
+$string['clientstitle'] = 'Titel des Kunden';
+$string['clientstitledesc'] = 'Die Kopfzeile der Kunden-Zeile';
+$string['clientsubtitle'] = 'Kunden-Untertitel'; 
+$string['clientssubtitledesc'] = 'Der Untertitel der Kunden-Zeile'; 
+$string['clientscount'] = 'Kunden zählen';
+$string['clientscountdesc'] = 'Wählen Sie aus, wie viele Kundenlogos Sie hinzufügen möchten <strong> klicken Sie dann auf Speichern</strong>, um die Eingabefelder zu laden';
+$string['clientsimage'] = 'Kundenlogo';
+$string['clientsimagedesc'] = 'Kundenlogo hinzufügen';
+$string['clientsurl'] = 'Kunden-URL';
+$string['clientsurldesc'] = 'Geben Sie die URL der Website des Kunden ein'; 
+
+// Registerkarte "Fußzeileneinstellungen".
+$string['footersettings'] = 'Fußzeile';
+$string['getintouchcontent'] = 'Inhalt der Kontaktaufnahme';
+$string['getintouchcontentdesc'] = 'Get In Touch Content Text eingeben';
+$string['website'] = 'Website-URL';
+$string['websitedesc'] = 'Hauptwebsite des Unternehmens';
+$string['mobile'] = 'Mobil';
+$string['mobiledesc'] = 'Handy-Nr. eingeben';
+$string['mail'] = 'E-Mail';
+$string['maildesc'] = 'E-Mail-ID eingeben';
+$string['facebook'] = 'Facebook-URL';
+$string['facebookdesc'] = 'Geben Sie die URL Ihres Facebook ein. (d.h. http://www.facebook.com/moodlehq)';
+$string['twitter'] = 'Twitter-URL';
+$string['twitterdesc'] = 'Geben Sie die URL Ihres Twitters ein. (d.h. http://www.twitter.com/moodlehq)';
+$string['googleplus'] = 'Google Plus-URL';
+$string['googleplusdesc'] = 'Geben Sie die URL Ihres Google Plus ein. (d.h. http://www.googleplus.com/moodlehq)';
+$string['linkedin'] = 'Verlinkte URL';
+$string['linkedindesc'] = 'Geben Sie die URL Ihres Linkedin ein. (d.h. http://www.linkedin.com/moodlehq)';
+$string['youtube'] = 'Youtube-URL';
+$string['youtubedesc'] = 'Geben Sie die URL Ihres Youtube ein. (d.h. https://www.youtube.com/user/moodlehq)';
+$string['instagram'] = 'Instagramm-URL';
+$string['instagramdesc'] = 'Geben Sie die URL Ihres Instagramms ein. (d.h. https://www.instagram.com/moodlehq)';
+$string['topfooterimg'] = 'Fußabbild';
+$string['topfooterimgdesc'] = 'Laden Sie hier Ihr benutzerdefiniertes Fußzeilenbild hoch, wenn Sie das Standardbild ersetzen möchten. Die empfohlene Größe ist 1500px x 400px oder höher.';
+$string['disablebottomfooter'] = 'Untere Fußzeile deaktivieren';
+$string['disablebottomfooterdesc'] = 'Deaktiviert die orangefarbene Fußzeile am unteren Rand';
+
+// Forum.
+$string['forumsettings'] = 'Forum';
+$string['forumsettingsdesc'] = 'Konfigurieren Sie hier die allgemeinen Foreneinstellungen für das Thema';
+$string['forumhtmlemailheader'] = 'E-Mail-Kopfzeile';
+$string['forumhtmlemailheaderdesc'] = 'Konfigurieren Sie die E-Mail-Kopfzeile für die Forennachrichten';
+$string['forumhtmlemailfooter'] = 'E-Mail-Fußzeile';
+$string['forumhtmlemailfooterdesc'] = 'Konfigurieren Sie die E-Mail-Fußzeile für die Forumsnachrichten';
+$string['forumcustomtemplate'] = 'Eine hübsche Vorlage für die Forumsnachrichten verwenden';
+$string['forumcustomtemplatedesc'] = 'Aktivieren Sie dies, um eine hübsche Vorlage beim Versenden von Forumsnachrichten per E-Mail zu verwenden. Wenn nicht aktiviert, wird die Standardformatierung der Forumsmails verwendet.';
+
+$string['certificates'] = 'Zertifikate';
+$string['zertifikatstitel'] = 'Meine Zertifikate';
+$string['subtitleallcertificates'] = 'Zertifikate aus allen Kursen';
+$string['subtitlecoursecertificates'] = 'Zertifikate von allen Kursen'; $string['subtitlecertificates'] = 'Zertifikate von allen Kursen';
+$string['nohavecertificates'] = 'Sie haben noch keine Zertifikate';
+$string['coursesections'] = 'Kursabschnitte';
+
+// Mypublic-Seite.
+$string['userprofile'] = 'Benutzerprofil';
+$string['Kompetenzpläne'] = 'Kompetenzpläne';
+$string['Details'] = 'Details';
+$string['begonnen am'] = 'Angefangen am';
+$string['addcontact'] = 'Kontakt hinzufügen';
+$string['removeecontact'] = 'Kontakt entfernen';
+$string['certificates'] = 'Zertifikate';
+
+// Themen-Einstellungen.
+$string['themesettingstitle'] = 'Zugänglichkeitseinstellungen';
+$string['themesettingsfonttype'] = 'Schriftart';
+$string['themesettingsdefaultfont'] = 'Standardschriftart';
+$string['themesettingsdyslexicfont'] = 'Legastheniker-Schriftart';
+$string['themesettingsenableaccessibilitytoolbar'] = 'Zugänglichkeits-Toolbar aktivieren';
+$string['themesettingsgsaved successfully'] = 'Zugänglichkeitseinstellungen erfolgreich gespeichert';
+
+// Zugänglichkeitsfunktionen.
+$string['accessibilityfontsize'] = 'Schriftgröße';
+$string['accessibilitydecreasefont'] = 'Schriftgröße verringern';
+$string['accessibilityresetfont'] = 'Schriftgröße zurücksetzen';
+$string['accessibilityincreasefont'] = 'Schriftgröße erhöhen';
+$string['accessibilitysitecolor'] = 'Schriftgröße erhöhen';
+ 
+$string['accessibilityresetsitecolor'] = 'Seitenfarbe zurücksetzen';
+$string['accessibilitysitecolor2'] = 'Niedriger Kontrast 1';
+$string['accessibilitysitecolor3'] = 'Niedriger Kontrast 2';
+$string['accessibilitysitecolor4'] = 'Hoher Kontrast';
+
+// Datenschutz.
+$string['privacy:metadata:preference:accessibilitystyles_fontsizeclass'] = 'Die Präferenz der Benutzer für die Schriftgröße';
+$string['privacy:metadata:preference:accessibilitystyles_sitecolorclass'] = 'Die Präferenz der Benutzer für die Site-Farbe';
+$string['privacy:metadata:preference:thememoovesettings_fonttype'] = 'Die Präferenz der Benutzer für die Schriftart';
+$string['privacy:metadata:preference:thememoovesettings_enableaccessibilitytoolbar'] = 'Die Präferenz der Benutzer für die Aktivierung der Zugänglichkeits-Toolbar';
+
+$string['privacy:accessibilitystyles_fontsizeclass'] = 'Die aktuelle Präferenz für die Schriftgröße ist: {$a}.';
+$string['privacy:accessibilitystyles_sitecolorclass'] = 'Die aktuelle Einstellung für die Site-Farbe ist: {$a}.';
+$string['privacy:thememoovesettings_fonttype'] = 'Die aktuelle Präferenz für den Schrifttyp ist: {$a}';
+$string['privacy:thememoovesettings_enableaccessibilitytoolbar'] = 'Die aktuelle Präferenz für die Zugänglichkeits-Toolbar ist: {$a}';
